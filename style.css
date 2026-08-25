@@ -815,4 +815,54 @@ img {
   object-fit: cover;
   display: block;
 }
+/* =========================================
+   MOBILE SEARCH + FILTER FIX
+   ========================================= */
+
+@media (max-width: 700px) {
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .search-bar {
+    width: 100%;
+    height: 54px;
+    min-height: 54px;
+    max-height: 54px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-bar input {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .search-icon {
+    flex-shrink: 0;
+  }
+
+  .filter-group {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .filter-select {
+    width: 100%;
+    height: 54px;
+    min-height: 54px;
+    box-sizing: border-box;
+  }
+}
 }
