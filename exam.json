@@ -1,0 +1,69 @@
+[
+  {
+    "name": "IBPS Clerk",
+    "category": "Banking · Clerk",
+    "code": "#IBPS-CLK-2025",
+    "date": "04 Oct 2025 · Saturday",
+    "examDateTime": "2025-10-04T09:00:00+05:30",
+    "hallTicket": "files/IBPS-CLERK-AdmitCard-2025.pdf",
+    "result": "files/IBPS-CLERK-Result-2025.png",
+    "resultStatus": "RELEASED",
+    "completed": true
+  },
+  {
+    "name": "RRB Clerk",
+    "category": "Banking · Clerk",
+    "code": "#RRB-CLK-2025",
+    "date": "13 Dec 2025 · Saturday",
+    "examDateTime": "2025-12-13T09:00:00+05:30",
+    "hallTicket": "files/RRB-Clerk-AdmitCard-2025.pdf",
+    "result": "files/RRB-CLERK-Result-2025.png",
+    "resultStatus": "RELEASED",
+    "completed": true
+  },
+  {
+    "name": "SBI PO",
+    "category": "Banking · PO",
+    "code": "#SBI-PO",
+    "date": "01 Aug 2026 · Saturday · 8:00 AM",
+    "examDateTime": "2026-08-01T08:00:00+05:30",
+    "hallTicket": "files/SBI-PO-AdmitCard.pdf",
+    "result": null,
+    "resultStatus": "PENDING",
+    "completed": true
+  },
+  {
+    "name": "IBPS PO",
+    "category": "Banking · PO",
+    "code": "#IBPS-PO",
+    "date": "23 Aug 2026 · Sunday · 10:30 AM",
+    "examDateTime": "2026-08-23T10:30:00+05:30",
+    "hallTicket": "files/ibps-po-AdmitCard.pdf",
+    "result": null,
+    "resultStatus": "PENDING",
+    "completed": true
+  },
+  {
+    "name": "IBPS Clerk",
+    "category": "Banking · Clerk",
+    "code": "#IBPS-CLK",
+    "date": "Yet to be announced",
+    "examDateTime": null,
+    "hallTicket": null,
+    "result": null,
+    "resultStatus": "PENDING",
+    "completed": false
+  },
+  {
+    "name": "SSC CGL",
+    "category": "SSC · CGL",
+    "code": "#SSC-CGL",
+    "date": "Yet to be announced",
+    "examDateTime": null,
+    "hallTicket": null,
+    "result": null,
+    "resultStatus": "PENDING",
+    "completed": false
+  }
+  
+]

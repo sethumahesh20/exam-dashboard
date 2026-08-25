@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Exam Vault</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-glow bg-glow--one" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <div class="brand-text">
+          <p class="brand-eyebrow">Personal Exam Vault</p>
+          <h1 class="brand-title">My Exams</h1>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div class="exam-count">
+          <span id="examCountValue">0</span>
+          <span class="exam-count-label">Exams</span>
+        </div>
+        <div class="profile-badge" title="Your vault">
+  <img
+    src="files/praneethphoto.jpeg"
+    alt="Profile"
+    class="profile-image"
+  >
+</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+
+    <section class="reality-check" aria-labelledby="realityCheckTitle">
+      <div class="reality-header">
+        <div>
+          <h2 id="realityCheckTitle">Reality Check</h2>
+          <p class="reality-subtitle">Where You Stand</p>
+        </div>
+        <div class="completion-ring-wrap">
+          <div class="completion-bar-track">
+            <div class="completion-bar-fill" id="completionBarFill"></div>
+          </div>
+          <span class="completion-percent" id="completionPercent">0%</span>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-value" id="statTotal">0</span>
+          <span class="stat-label">Total Exams</span>
+        </div>
+        <div class="stat-card stat-card--good">
+          <span class="stat-value" id="statCompleted">0</span>
+          <span class="stat-label">Completed</span>
+        </div>
+        <div class="stat-card stat-card--info">
+          <span class="stat-value" id="statUpcoming">0</span>
+          <span class="stat-label">Upcoming</span>
+        </div>
+        <div class="stat-card stat-card--warn">
+          <span class="stat-value" id="statPending">0</span>
+          <span class="stat-label">Results Pending</span>
+        </div>
+      </div>
+
+      <p class="reality-insight" id="realityInsight">Loading your exam reality…</p>
+    </section>
+
+    <section class="controls" aria-label="Search and filter exams">
+      <div class="search-bar">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search by exam name, category or code…" autocomplete="off">
+      </div>
+      <div class="filter-group">
+        <select id="categoryFilter" class="filter-select" aria-label="Filter by category">
+          <option value="all">All Categories</option>
+        </select>
+        <select id="statusFilter" class="filter-select" aria-label="Filter by status">
+          <option value="all">All Status</option>
+          <option value="upcoming">Upcoming</option>
+          <option value="completed">Completed</option>
+          <option value="result-pending">Result Pending</option>
+          <option value="result-available">Result Available</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="exam-section" aria-label="Exam list">
+      <div id="examContainer" class="exam-grid"></div>
+      <div id="emptyState" class="empty-state" hidden>
+        <span class="empty-icon" aria-hidden="true">◇</span>
+        <p class="empty-title">No exams match that</p>
+        <p class="empty-subtitle">Try a different search term or reset your filters.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Personal Exam Vault · Built for one person, no backend required.</p>
+  </footer>
+
+  <div class="modal-overlay" id="resultModal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalExamName">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close result">✕</button>
+      <p class="modal-eyebrow">Result</p>
+      <h3 class="modal-exam-name" id="modalExamName"></h3>
+      <div class="modal-image-wrap">
+        <img id="modalImage" src="files/praneethphoto.jpeg">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
