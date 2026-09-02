@@ -28,8 +28,8 @@
     "date": "01 Aug 2026 · Saturday · 8:00 AM",
     "examDateTime": "2026-08-01T08:00:00+05:30",
     "hallTicket": "files/SBI-PO-AdmitCard.pdf",
-    "result": null,
-    "resultStatus": "PENDING",
+    "result": "files/sbi-po-result.png",
+    "resultStatus": "RELEASED",
     "completed": true
   },
   {

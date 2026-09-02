@@ -654,6 +654,8 @@ function updateTimers() {
       '[data-timer-block]'
     );
 
+  let needsRerender = false;
+
 
   blocks.forEach((block) => {
 
@@ -693,11 +695,14 @@ function updateTimers() {
 
     /*
       Exam time passed:
-      remove timer completely.
+      remove timer completely and
+      flag a re-render so the card's
+      status tag flips to Completed.
     */
 
     if (diff <= 0) {
       block.remove();
+      needsRerender = true;
       return;
     }
 
@@ -823,6 +828,10 @@ function updateTimers() {
     valueEl.textContent =
       formatted;
   });
+
+  if (needsRerender) {
+    applyFilters();
+  }
 }
 
 
