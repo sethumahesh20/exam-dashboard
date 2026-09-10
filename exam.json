@@ -44,6 +44,16 @@
     "completed": true
   },
   {
+    "name": "SSC Stenographer Grade C & D",
+    "category": "SSC · Stenographer",
+    "code": "#SSC-STENO-2026",
+    "date": "12 Sep 2026 · Saturday · 3:30 PM",
+    "examDateTime": "2026-09-12T15:30:00+05:30",
+    "hallTicket": "files/SSC-STENO-ADMITCARD.pdf",
+    "result": null,
+    "completed": false
+},
+  {
     "name": "IBPS Clerk",
     "category": "Banking · Clerk",
     "code": "#IBPS-CLK",
@@ -54,16 +64,7 @@
     "resultStatus": "PENDING",
     "completed": false
   },
- {
-    "name": "SSC Stenographer Grade C & D",
-    "category": "SSC · Stenographer",
-    "code": "#SSC-STENO-2026",
-    "date": "12 Sep 2026 · Saturday · 3:30 PM",
-    "examDateTime": "2026-09-12T15:30:00+05:30",
-    "hallTicket": "files/SSC-STENO-ADMITCARD.pdf",
-    "result": null,
-    "completed": false
-},
+ 
   {
     "name": "SSC CGL",
     "category": "SSC · CGL",

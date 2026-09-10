@@ -953,7 +953,7 @@ function buildInsight({
   ) {
 
     return (
-      'The exams are over. Now comes the waiting game.'
+      'Let us have a look at my exams'
     );
   }
 
