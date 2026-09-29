@@ -39,8 +39,8 @@
     "date": "23 Aug 2026 · Sunday · 10:30 AM",
     "examDateTime": "2026-08-23T10:30:00+05:30",
     "hallTicket": "files/ibps-po-AdmitCard.pdf",
-    "result": null,
-    "resultStatus": "PENDING",
+    "result": "files/IBPS-PO-Result.png",
+    "resultStatus": "RELEASED",
     "completed": true
   },
   {
@@ -79,12 +79,11 @@
     "name": "SSC CGL",
     "category": "SSC · CGL",
     "code": "#SSC-CGL",
-    "date": "Yet to be announced",
+    "date": "23 Oct 2026",
     "examDateTime": null,
     "hallTicket": null,
     "result": null,
-    "resultStatus": "PENDING",
     "completed": false
-  }
+}
   
 ]
