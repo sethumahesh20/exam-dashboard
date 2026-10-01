@@ -66,14 +66,13 @@
   {
     "name": "IBPS Clerk",
     "category": "Banking · Clerk",
-    "code": "#IBPS-CLK",
-    "date": "Yet to be announced",
-    "examDateTime": null,
-    "hallTicket": null,
+    "code": "#IBPS-CLK-2026",
+    "date": "10 Oct 2026 · Saturday · 4:30 PM",
+    "examDateTime": "2026-10-10T16:30:00+05:30",
+    "hallTicket": "files/IBPS-CLERK-HT.pdf",
     "result": null,
-    "resultStatus": "PENDING",
     "completed": false
-  },
+},
  
   {
     "name": "SSC CGL",
