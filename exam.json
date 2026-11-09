@@ -52,8 +52,8 @@
     "hallTicket": "files/SSC-STENO-ADMITCARD.pdf",
     "result": null,
     "completed": false
-},
-{
+  },
+  {
     "name": "SBI Junior Associate",
     "category": "Banking · Clerk",
     "code": "CRPD/CR/2026-27/17",
@@ -62,7 +62,7 @@
     "hallTicket": "files/SBI-Junior-Associate-AdmitCard-2026.pdf",
     "result": null,
     "completed": false
-},
+  },
   {
     "name": "IBPS Clerk",
     "category": "Banking · Clerk",
@@ -72,9 +72,8 @@
     "hallTicket": "files/IBPS-CLERK-HT.pdf",
     "result": null,
     "completed": false
-},
- 
- {
+  },
+  {
     "name": "SSC CGL",
     "category": "SSC · CGL",
     "code": "#SSC-CGL-2026",
@@ -83,6 +82,15 @@
     "hallTicket": "files/SSC-CGL-AdmitCard-2026.pdf",
     "result": null,
     "completed": false
-}
-  
+  },
+  {
+    "name": "IBPS RRB PO",
+    "category": "Banking · PO",
+    "code": "#RRB-PO-2026",
+    "date": "21 Nov 2026 · Saturday · 9:00 AM",
+    "examDateTime": "2026-11-21T09:00:00+05:30",
+    "hallTicket": "files/RRB-PO-AdmitCard.pdf",
+    "result": null,
+    "completed": false
+  }
 ]
